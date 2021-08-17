@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void n(void);
+
+int main(void)
+{   
+    printf("Good");
+    n();
+    printf(",\neverybody!\n");
+    printf("^.^\n");
+    
+    return 0;
+}
+
+void n(void)
+{
+     printf("luck");
+}
