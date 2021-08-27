@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+	char x[40], c[40];
+	printf("enter:\n");
+	scanf_s("%s%s", x, 40, c, 40);
+	printf("%s,%s", x, c);
+
+	return 0;
+}
