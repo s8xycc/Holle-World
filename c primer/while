@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(void)
+{
+    long num;
+    long sum = 0L;
+
+    printf("Please enter an integer to be sumed (q to quit)");
+    while (scanf_s("%ld", &num) == 1)
+    {
+        sum = num + sum;
+        printf("Please enter next integer (q to quit)");
+    }
+    printf("Those integers sum %ld", sum);
+    return 0;
+}
