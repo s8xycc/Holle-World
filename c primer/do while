@@ -1,0 +1,14 @@
+include <stido.h>
+int main()
+{
+    const int real=12;
+    int code_enter;
+    do
+    {
+        printf("Please enter your sceret:")
+        scanf("%d", &code_enter);
+    }while(code_enter != real);
+    printf("Congratulation!You are cuded!\n")
+    
+    retrun 0;
+}
